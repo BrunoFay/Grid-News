@@ -16,7 +16,7 @@
    flex-direction: column;
    align-items: center;
    gap: 1em;
-   clear:both;
+   overflow: auto;
 }
 
 
@@ -65,9 +65,8 @@
 
 .div4 img {
    width: 19em;
-   height: min-content;
-   clear:both;
-}
+   height: 14em;
+   margin-bottom: 1em;}
 
 .div5 {
    grid-area: 4 / 1 / 5 / 2;
